@@ -12,6 +12,16 @@ public class CityList {
     private List<City> cities = new ArrayList<>();
 
     /**
+     * Creates an empty CityList.
+     */
+    public CityList() {
+        /**default constructor */
+
+    }
+
+
+
+    /**
      * Checks if a city is in the list.
      * @param city City to look for
      * @return true if found, false otherwise
